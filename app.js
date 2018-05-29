@@ -21,7 +21,7 @@ const cards = [
       flipped: false,
     },
   ]; 
-  
+
   new Vue({
     el: '#flashcard-app',
     data: {

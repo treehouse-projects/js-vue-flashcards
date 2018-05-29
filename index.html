@@ -34,18 +34,6 @@
         </p>
       </li>
     </ul>
-    <!-- Alternative solution -->
-    <!-- <ul class="flashcard-list">
-      <li v-for="(card, index) in cards" v-on:click="toggleCard(card)">
-        <transition name="flip">
-            <p class="card" v-bind:key="card.flipped">
-              {{ card.flipped ? card.back : card.front }}
-              <span class="delete-card" v-on:click="cards.splice(index, 1)">X</span>
-            </p>
-        </transition>
-      </li>
-    </ul> -->
-    
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
